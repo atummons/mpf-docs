@@ -144,6 +144,8 @@ keys, there are a few things you can try to troubleshoot:
   machine than keys on a keyboard, MPF lets you add modified keys to
   your ``keyboard:`` map. This means that MPF will see ``Z``, ``SHIFT+Z``,
   ``CRTL+Z``, ``SHIFT+CTRL+Z``, etc. all as different switches.
++ If using an external keyboard, ensure that Num Lock is not on, or it
+  might cause your inputs to not be recognized.
 + Remember that the media controller's pop-up window has to be in
   focus. Make sure it's the active window on your desktop and try
   hitting your keys again.
